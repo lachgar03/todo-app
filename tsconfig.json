@@ -1,4 +1,12 @@
 {
+  "compilerOptions": {
+    "baseUrl": "./", // Set the base directory for module resolution
+    "paths": {
+      "@/*": ["src/*"] // Map @/ to the src folder
+    },
+    "esModuleInterop": true,
+    // other options...
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
